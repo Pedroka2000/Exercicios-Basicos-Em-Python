@@ -1,0 +1,37 @@
+soma = 0
+total = 0
+def operacao():
+    print("Operações disponiveis:")
+    print("         soma(+)")
+    print("    subtração(-)")
+    print("multiplicação(*)")
+    print("      divisão(/)")
+    print("  porcentagem(%)")
+    opera = input("qual operação matematica voce gostaria de realizar? ")
+    return opera
+
+ 
+if operacao() == "soma" or "+":
+    while soma != "parar":
+        soma = int(input("informe os valores a serem somados ou parar:"))
+        total = total + soma
+    print(total)
+
+    
+        
+
+
+
+
+elif operacao() == "subtração" or "-" or "subtracao":
+    print("aaaaaaaaaaaaaaaaaaa")
+
+elif operacao() == "multiplicação" or "*" or "multiplicacao":
+    print("aaaaaaaaaaaaaaaaaaa")
+
+elif operacao() == "divisão" or "/" or "divisao":
+        print("aaaaaaaaaaaaaaaaaaa")
+
+elif operacao() == "porcentagem" or "%":
+        print("aaaaaaaaaaaaaaaaaaa")
+    
