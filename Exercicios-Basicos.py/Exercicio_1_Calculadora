@@ -1,5 +1,6 @@
 soma = 0
 total = 0
+
 def operacao():
     print("Operações disponiveis:")
     print("         soma(+)")
@@ -15,6 +16,7 @@ if operacao() == "soma" or "+":
     while soma != "parar":
         soma = int(input("informe os valores a serem somados ou parar:"))
         total = total + soma
+        soma = str(soma)
     print(total)
 
     
